@@ -1,0 +1,9 @@
+{
+  "country": "GB",
+  "appSourceCopMandatoryAffixes": [
+    "ISL"
+  ],
+  "appFolders": [],
+  "testFolders": [],
+  "bcptTestFolders": []
+}

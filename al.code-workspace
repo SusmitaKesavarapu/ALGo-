@@ -1,0 +1,24 @@
+{
+    "folders": [
+        {
+            "path": ".AL-Go"
+        }
+    ],
+    "settings": {
+        "al.enableCodeAnalysis": true,
+        "al.codeAnalyzers": [    
+          "${CodeCop}",
+          "${UICop}",
+          "${PerTenantExtensionCop}"
+        ],
+        "al.ruleSetPath": "../.codeAnalysis/ignore.ruleset.json",
+    
+        "CRS.ObjectNamePrefix": "ISL ",
+        "CRS.AlSubFolderName": "src",
+        "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.ExtensionObjectNamePattern": "<Prefix><BaseName> Ext",    
+        "CRS.OnSaveAlFileAction": "Reorganize"
+    }
+}
