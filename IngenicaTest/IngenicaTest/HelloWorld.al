@@ -9,7 +9,7 @@ pageextension 50100 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
     begin
-        Message('App published: I360 Ingenica Solutions');
+        Message('App published: I360 Ingenica');
     end;
 }
 
